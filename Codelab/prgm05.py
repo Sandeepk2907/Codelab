@@ -1,0 +1,10 @@
+name=input("Enter Name:")
+year=input("Birth Year:")
+
+common=["123","1234","@123","13579","admin","qwerty"]
+chars= "!@#$%^&*()"
+
+for c in common:
+    print(name+ year+c)
+    print(name+chars+year)
+    print(name.capitalize()+c)
